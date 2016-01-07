@@ -224,6 +224,12 @@ function create_config( )
     "text",
     "plugin",
     "leave",
+    "ver",
+    "ly",
+    "ex",
+    "sms",
+    "gps",
+    "fsh",
     "all"
     },
     sudo_users = {157171928},--Sudo users
