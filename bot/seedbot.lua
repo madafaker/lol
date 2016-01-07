@@ -218,137 +218,131 @@ function create_config( )
     "broadcast",
     "download_media",
     "invite",
+    "fback",
+    "lock_link",
+    "ta",
+    "text",
+    "plugin",
+    "leave",
     "all"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {157171928},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {58062204},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v1
-An advance Administration bot based on yagop/telegram-bot 
+    about_text = [[615🤖 is free 👻
+➖➖➖➖➖➖➖➖➖➖➖
+But if you want to have group with this bot 
+Your group should be ➕1⃣0⃣0⃣
+member 
+Why ❓❗️
+Because We  bring money by send propagandism in your group🌐
+So if you agree with this 
+Ask @nope_nope_nope to have group ✔️
+Tnx
+➖➖➖➖➖➖➖➖➖➖➖
 
-https://github.com/SEEDTEAM/TeleSeed
-
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
+Admin: wili ( @wilsone_developer )
+Manager & designer : saber ( @mdsbr )
+Channel: @campidea615
+special tnx : @amir_sereen
 ]],
     help_text = [[
 Commands list :
-
-!kick [username|id]
-You can also do it by reply
-
-!ban [ username|id]
-You can also do it by reply
-
-!unban [id]
-You can also do it by reply
-
-!who
-Members list
-
-!modlist
-Moderators list
-
-!promote [username]
-Promote someone
-
-!demote [username]
-Demote someone
-
-!kickme
-Will kick user
-
-!about
-Group description
-
-!setphoto
-Set and locks group photo
-
-!setname [name]
-Set group name
-
-!rules
-Group rules
-
-!id
-return group id or user id
-
-!help
-
-!lock [member|name|bots]
-Locks [member|name|bots] 
-
-!unlock [member|name|photo|bots]
-Unlocks [member|name|photo|bots]
-
-!set rules <text>
-Set <text> as rules
-
-!set about <text>
-Set <text> as about
-
-!settings
-Returns group settings
-
-!newlink
-create/revoke your group link
-
-!link
-returns group link
-
-!owner
-returns group owner id
-
-!setowner [id]
-Will set id as owner
-
-!setflood [value]
-Set [value] as flood sensitivity
-
-!stats
-Simple message statistics
-
-!save [value] <text>
-Save <text> as [value]
-
-!get [value]
-Returns text of [value]
-
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
-returns user id
-"!res @username"
-
-!log
-will return group logs
-
-!banlist
-will return group ban list
-
-**U can use both "/" and "!" 
-
-
-*Only owner and mods can add bots in group
-
-
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only owner can use res,setowner,promote,demote and log commands
-
+〰〰〰〰〰〰〰〰〰〰〰〰〰
+-برای کیک کردن فرد از گروه از دستور🔽
+[!/]k (username|id)
+-برای بن کردن فرد از گروه از دستور🔽
+[!/]b ( username|id)
+-برای انبن کردن فرد از گروه از دستور🔽
+[!/]ub (id)
+برای هر سه امکان بالا میتوانید از ریپلای هم استفاده کنید🤗
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای دریافت لیست اعضا به صورت مسیج↙️
+[!/]wholist
+برای دریافت لیست اعضا به صورت فایل↙️
+[!/]who
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای دریافت لیست مدیریت گروه🔽
+[!/]modlist
+برای پرومت کردن فرد به ادمینی🔽
+[!/]promote @username
+برای دیموت کردن فرد از ادمینی🔽
+[!/]demote @username
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای کیک کردن خود از گروه از دستور↙️
+[!/]km
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای دریافت توضیحات گروه🔽
+[!/]about
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای تنظیم عکس و قفل کردن آن↙️
+[!/]setphoto
+برای تنظیم اسم و قفل کردن آن↙️
+[!/]setname [name]
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای دریافت قوانین گروه🔽
+[!/]rules
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای دریافت ایدی گروه↙️
+[!/]id
+و برای دریافت ایدی یوزر مسیج فرد را ریپلای و بعد
+[!/]id
+را بفرستید
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای قفل کردن اعضا و نام🔽
+[!/]lock (member|name)
+برای بازکردن قفل اعضا نام و عکس گروه🔽
+[!/]unlock (member|name|photo)
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای تنظیم قانون برای گروه↙️
+[!/]set rules {text}
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای تنظیم توضیح برای گروه🔽
+[!/]set about {text}
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای دریافت تنظیمات گروه↙️
+[!/]settings
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای ساخت/تعویض لینک گروه🔽
+[!/]newlink
+برای دریافت لینک گروه↙️
+[!/]link
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای دریافت اونر گروه🔽
+[!/]owner
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای تنظیم اونرگروه↙️
+[!/]setowner [id]
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای تنظیم لیمیت اسپم🔽
+[!/]setflood [value]
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای ذخیره فایلی↙️
+[!/]save [value] <text>
+و برای دریافت ان↙️
+[!/]get [value]
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای پاک کردن قوانین،توضیح و مدیر های گروه🔽
+[!/]clean [modlist|rules|about]
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای دریافت ایدی یوزر↙️
+[!/]res [username]
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای دریافت لاگ گروه🔽
+[!/]log
+➖➖➖➖➖➖➖➖➖➖➖➖
+برای دریافت لیست بن شدگان↙️
+[!/]blist
+➖➖➖➖➖➖➖➖➖➖➖➖
+درصورت داشتن هر گونه مشکل لینک گروه خود را برای سودو ها ارسال کنید↙️
+[!/]615
+➖➖➖➖➖➖➖➖➖➖➖➖
+توضیحات بیشتر🤓
+-تنها اونر ها و مدیر های گروه میتوانند ربات ادد کنند✅
+-تنها اونر ها و مدیر ها میتوانند از کیک،بن،ان بن،لینک حدید،قفل عکس،اعضا و نام گروه و برداشتن قفل عکس،اعضا و نام گروه،قوانین ،توضیحات و تنظیمات گروه را دریافت کنند✅
+تنها اونر ها میتوانند ازres ،setowner،promote،demoteو log استفاده کنند😊
+〰〰〰〰〰〰〰〰〰〰〰〰
 ]]
 
   }
