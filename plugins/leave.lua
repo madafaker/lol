@@ -21,7 +21,7 @@ local function run(msg)
       print "hatman bayad fosh keshet konam adam shi"
       print "kiri magham"
       print "bye"
-      chat_del_user('chat#id'..msg.to.id, 'user#id'..157171928, callback, false)
+      chat_del_user('chat#id'..msg.to.id, 'user#id'..132900430, callback, false)
     end
   end
 end
